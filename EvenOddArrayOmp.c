@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 #define N 1000000  //Size of the array
-#define NUM_THREADS 4 //number of threads
-#define CHUNK_SIZE 1000  // chunk size for both statoc and parallel
+#define NUM_THREADS 12 //number of threads
+#define CHUNK_SIZE 1  // chunk size for both statoc and parallel
 int main() {
     int arr[N];
 
